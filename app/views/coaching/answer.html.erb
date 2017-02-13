@@ -1,5 +1,14 @@
-<p class="sentence"><%= @question %></p>
-<p class="person"><%= @person1 %></p>
+<div>
+  <blockquote><%= @question %></blockquote>
+  <p class="person">- <%= @person1 %></p>
+</div>
 
-<p class="sentence"><%= @answer %></p>
-<p class="person"><%= @person2 %></p>
+<div style="margin-bottom: 40px;">
+  <blockquote><%= @answer %></blockquote>
+ <p class="person">- <%= @person2 %></p>
+</div>
+
+<a href="/ask" class="btn btn-primary">Ask again</a>
+
+
+
